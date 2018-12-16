@@ -54,6 +54,7 @@ echo "Enabling AUR..."
 echo
 cd /etc/
 sudo rm -f ./pacman.conf
+cd /etc/
 sudo wget https://raw.githubusercontent.com/zSucrilhos/arch-install-script.sh/master/pacman.conf
 sudo pacman -Syy
 echo
