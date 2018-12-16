@@ -49,17 +49,17 @@ echo "Done"
 echo
 
 # AUR
-echo
-echo "Enabling AUR..."
-echo
-cd /etc/
-sudo rm -f ./pacman.conf
-cd /etc/
-sudo wget https://raw.githubusercontent.com/zSucrilhos/arch-install-script.sh/master/pacman.conf
-sudo pacman -Syy
-echo
-echo "Done"
-echo
+#echo
+#echo "Enabling AUR..."
+#echo
+#cd /etc
+#sudo rm -f ./pacman.conf
+#cd /etc
+#sudo wget https://raw.githubusercontent.com/zSucrilhos/arch-install-script.sh/master/pacman.conf /etc/
+#sudo pacman -Syy
+#echo
+#echo "Done"
+#echo
 
 # Istalling AUR packages
 echo
