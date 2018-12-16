@@ -64,7 +64,7 @@ echo
 echo
 echo "AUR Packages"
 echo
-yay -S mps-youtube cava nerd-fonts-hack terminus-font-ttf ttf-unifont siji-git ttf-ms-fonts ttf-tahoma ttf-iosevka ttf-vista-fonts ttf-fixedsys-excelsior-linux ttf-material-icons pamac-aur gksu i3-scrot xkill spacefm oh-my-tmux oh-my-zsh vimplug lightscreen
+yay -S mps-youtube cava nerd-fonts-hack terminus-font-ttf ttf-unifont siji-git ttf-ms-fonts ttf-tahoma ttf-iosevka ttf-vista-fonts ttf-fixedsys-excelsior-linux ttf-material-icons pamac-aur gksu i3-scrot xkill spacefm oh-my-tmux oh-my-zsh vimplug lightscreen update-grub mpd-notification
 
 echo
 echo "Disable PC Speaker:"
