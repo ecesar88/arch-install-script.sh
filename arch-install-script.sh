@@ -141,6 +141,14 @@ cd themes
 https://raw.githubusercontent.com/zSucrilhos/punctual-zsh-theme/master/punctual.zsh-theme
 echo
 echo "Done"
+echo
+echo "Enable auto-login with getty"
+echo
+sudo /etc/systemd/system/getty@tty1.service.d/
+sudo wget https://raw.githubusercontent.com/zSucrilhos/dotfiles/master/Desktop/etc/systemd/system/getty%40tty1.service.d/override.conf
+echo
+
+echo
 echo "##################################################"
 echo "########### Full System upgrade ##################"
 echo "##################################################"
